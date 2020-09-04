@@ -6,8 +6,8 @@ $dark-blue: #2c3e50;
 
 
 // Override Bootstrap primary and secondary colors
-$primary: $teal;
-$secondary: #008026;
+$primary: #008026;
+$secondary: $teal;
 
 // Override Bootstrap font variables
 $font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -16,7 +16,7 @@ $font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
 $headings-font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$headings-font-weight: 700;
+$headings-font-weight: 500;
 
 // Override Bootstrap border variables
 $border-width: 0.125rem;
