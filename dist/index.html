@@ -38,7 +38,7 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/hloni.jpg" alt="" />
+                <img class="img-rounded rounded-circle masthead-avatar mb-5" src="assets/img/hloni.jpg" alt="" />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Kenny Mafabatho</h1>
                 <!-- Icon Divider-->
@@ -48,7 +48,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Software Developer - Web Developer -</p>
+                <p class="masthead-subheading font-weight-light mb-0">Software Developer - Web Developer</p>
             </div>
         </header>
         <!-- Portfolio Section-->
@@ -70,7 +70,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/camera.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -79,7 +79,16 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/resume.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/soccer.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -129,7 +138,7 @@
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Social Media</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="www.linkedin.com/in/kenny-lehlohonolo-mafabatho-928190139"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/kenny-lehlohonolo-mafabatho-928190139/"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/KennyMafabatho"><i class="fab fa-fw fa-github"></i></a>
                     </div>
                     <!-- Footer About Text-->
@@ -138,7 +147,7 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © kenny mafabatho 2020</small></div>
+            <div class="container"><small>Copyright © Kenny Mafabatho 2020</small></div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
@@ -168,7 +177,7 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/photosharepic.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Photo-Share is an image sharing platform that is built on Laravel, a PHP framework. It allows users to edit and share pictures and messages. User can simply register, log in and add posts with just a click. The initial app was built based on a freeCodeCamp.org tutorial.</p>
-                                    <p class="text-center lead"><!-- <a href = "https://github.com/KennyMafabatho/photo-share"> Photo-Share Git link</a>--></p>
+                                    <p class="text-center lead"><a href="https://github.com/KennyMafabatho/photo-share">Photo-Share Git link</a></p>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -200,10 +209,45 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/kennylogo.png" alt="" />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/resumelogo.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">My personal website(this site) created with Bootstrap and pug. It is a static web page, with responsive portfolio grid and modal windows for each portfolio item. It has information about me and the portfolio of project I have built.</p>
-                                    <p class="text-center lead"><!--<a href = "https://github.com/KennyMafabatho/resume">Kenny Mafabatho Git link</a>--></p>
+                                    <p class="text-center lead"><a href="https://github.com/KennyMafabatho/resume">Kenny Mafabatho Git link</a></p>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Resume</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="#" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">My personal website(this site) created with Bootstrap and pug. It is a static web page, with responsive portfolio grid and modal windows for each portfolio item. It has information about me and the portfolio of project I have built.</p>
+                                    <p class="text-center lead"><a href="#">Kenny Mafabatho Git link</a></p>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
