@@ -1,17 +1,11 @@
-# [Start Bootstrap - Freelancer](https://startbootstrap.com/themes/freelancer/)
-
-[Freelancer](https://startbootstrap.com/themes/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, modal windows for each portfolio item, and a working PHP based contact form.
-
+# Kenny Mafabatho
 ## Preview
 
 ![kennyWebpic](https://user-images.githubusercontent.com/68854524/92491513-9b69c000-f1f2-11ea-87e0-11d8230a1020.png)
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-freelancer/)**
-
-
 ### About
 
-This is my website built on Bootstrap and pug. The site contains information about me as a software developer. And it has the projects I have built and those I am in the process of building.
+This is my website built on Bootstrap and pug, using freelancer theme. The site contains information about me as a software developer. And it has the projects I have built and those I am in the process of building.
 
 
 #### npm Scripts
@@ -33,4 +27,4 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 ## Copyright and License
 
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Copyright 2013-2020 Kenny Mafabatho. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
