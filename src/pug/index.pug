@@ -91,6 +91,13 @@ html(lang='en')
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
                             img.img-fluid(src='assets/img/portfolio/soccer.png', alt='')
+                    // Portfolio Item 4     
+                    .col-md-6.col-lg-4.mb-5
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal4')
+                          .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                              .portfolio-item-caption-content.text-center.text-white
+                                  i.fas.fa-plus.fa-3x
+                          img.img-fluid(src='assets/img/portfolio/cabin.png', alt='')                 
 
         // About Section
         section#about.page-section.bg-primary.text-white.mb-0
@@ -229,7 +236,7 @@ html(lang='en')
                             .row.justify-content-center
                                 .col-lg-8
                                     // Portfolio Modal - Title
-                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal2Label Resume
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal3Label SQL
                                     // Icon Divider
                                     .divider-custom
                                         .divider-custom-line
@@ -240,13 +247,43 @@ html(lang='en')
                                     img.img-fluid.rounded.mb-5(src='assets/img/portfolio/soccer.png', alt='')
                                     // Portfolio Modal - Text
                                     p.mb-5
-                                        | This is the analysis of open-source Premier League data. It give insights into the historical performances of different clubs over the years. Have you ever wondered which Premier League club has the best conversion rate of shots on goal? So did I! I decided to look at the data. Coming soon...
+                                        | A coach finder App, created using JavaScript framework(Vue.js), HTML,BootStrap and CSS. The is the app where people can find mentors to assit them to grow software development and also can register to be coaches. NB-this App was initially created as part of Udemy course.
                                     p.text-center.lead
-                                        <a href = "#">Coming Soon</a>
+                                        <a href = "https://vue-http-demo-36ade.web.app/coaches">Coach Finder Link</a>
                                     button.btn.btn-primary(data-dismiss='modal')
                                         i.fas.fa-times.fa-fw
                                         | Close Window 
 
+        //Portfolio modal 4
+        #portfolioModal4.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='portfolioModal4Label', aria-hidden='true')
+          .modal-dialog.modal-xl(role='document')
+              .modal-content
+                  button.close(type='button', data-dismiss='modal', aria-label='Close')
+                      span(aria-hidden='true')
+                          i.fas.fa-times
+                  .modal-body.text-center
+                      .container
+                          .row.justify-content-center
+                              .col-lg-8
+                                  // Portfolio Modal - Title
+                                  h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal4Label Coach Finder
+                                  // Icon Divider
+                                  .divider-custom
+                                      .divider-custom-line
+                                      .divider-custom-icon
+                                          i.fas.fa-star
+                                      .divider-custom-line
+                                  // Portfolio Modal - Image
+                                  img.img-fluid.rounded.mb-5(src='assets/img/portfolio/soccer.png', alt='')
+                                  // Portfolio Modal - Text
+                                  p.mb-5
+                                      | This is the analysis of open-source Premier League data. It give insights into the historical performances of different clubs over the years. Have you ever wondered which Premier League club has the best conversion rate of shots on goal? So did I! I decided to look at the data. Coming soon...
+                                  p.text-center.lead
+                                      <a href = "#">Coming Soon</a>
+                                  button.btn.btn-primary(data-dismiss='modal')
+                                      i.fas.fa-times.fa-fw
+                                      | Close Window 
+           
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
         script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js')
